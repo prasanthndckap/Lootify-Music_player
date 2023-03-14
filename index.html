@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9b0c9c9952.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>music player</h1>
+        <img src="" id="image" alt="">
+        <p class="" id="title">song titile</p>
+        <marquee behavior="" direction="" id="artist"></marquee>
+
+        <audio autoplay class="audio">
+            <source src="" type="audio/mp3">
+        </audio>
+        <br>
+        <span class="current">00</span>
+        <input type="range" id="slider" min="0" max="100" value="0">
+        <span class="duration">00</span>
+
+        <div class="icons">
+            <button id="suffle"><i class="fa-solid fa-shuffle"></i></button>
+            <button class="privious-song" id="previous"><i class="fa-solid fa-backward-step"></i></button>
+            <button id="play"><i class="fa-solid fa-play play"></i></button>
+            <button id="next"><i class="fa-solid fa-forward-step"></i></button>
+            <button id="volume">
+ 
+ 
+                <i class="fa-solid fa-volume-high"></i>
+                </button>
+
+            <!-- <i class="fa-solid fa-volume-xmark"> -->
+
+      
+        </div>
+
+        <!-- <i class="fa-solid fa-volume"></i>
+        <i class="fa-solid fa-volume"></i> -->
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
